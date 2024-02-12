@@ -15,9 +15,6 @@ public class AvezTruz extends Ave  {
         System.out.println("<<Silencion>>");
     }
     
-        public void vuela(){
-        System.out.println("No vuela");
-    }
     
     
 }

@@ -9,8 +9,8 @@ package trabajoaves;
  *
  * @author julian.echeverria
  */
-public class Volar {
+public interface Volar {
     
     void vuela();
-    //prueba 
+   
 }

@@ -10,11 +10,9 @@ package trabajoaves;
  * @author julian.echeverria
  */
 public abstract class Ave {
-    
-    
         
-    public abstract void makeSound();
-    public abstract void vuela();
+     public abstract void makeSound();
+
     
     
     

@@ -9,7 +9,7 @@ package trabajoaves;
  *
  * @author julian.echeverria
  */
-public class Gallina extends Ave implementes Volar{
+public class Gallina extends Ave implements Volar{
     
       public void makeSound(){
         System.out.println("Grasna");
