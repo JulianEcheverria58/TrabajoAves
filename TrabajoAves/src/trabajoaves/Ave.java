@@ -10,10 +10,21 @@ package trabajoaves;
  * @author julian.echeverria
  */
 public abstract class Ave {
-        
+   
+    TipoSonido tipoSonido;
+    TipoVuelo tipoVuelo;
+    
+    //metodos de una ave
+    
      public abstract void makeSound();
 
     
-    
+    public void realizaVuelo(){
+        tipoVuelo.vuelo();
+    }
+     
+    public void realizaSonido(){
+        tipoSonido.makeSound();
+    }
     
 }
